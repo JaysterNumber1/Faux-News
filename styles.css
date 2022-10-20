@@ -1,0 +1,79 @@
+
+.headings>h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    font-size: 5vmax;
+   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    width:100vw;
+    font-size: 5vmax;
+    
+    background-color: navy;
+    color: white;
+    padding-left:5vw;
+    margin: 0%;
+    
+    vertical-align: top;
+
+}
+
+.headings>h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    width: 100vw;
+    font-size: 2vmax;
+    
+    background-color: red;
+    color: white;
+    padding-left:5vw;
+    margin: 0%;
+    margin-right: 50%;
+    vertical-align: top;
+    
+}
+
+.headings>img{
+    
+    margin:none;
+    height: 13.25vmax;
+    padding: none;
+    vertical-align: top;
+    border: .2vmax black solid;
+    z-index: 1;
+    position: absolute;
+    right: 2.5vmax;
+    top: 0max;
+}
+
+.headings{
+    margin: none;
+}
+
+
+.navi{
+    border: 1px dodgerblue solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: navy;
+    width: 100vmax;
+    
+    
+}
+.navi>nav>li{
+    list-style: none;
+    
+}
+.navi>nav>li>a{
+    
+    color: white;
+    background-color: navy;
+    margin-left: 7vmax;
+    margin-right: 7vmax;
+    font-size: 2vmax;
+    
+}
+
+.navi>nav>li>a:hover{
+    background-color: white;
+    color: navy;
+}
