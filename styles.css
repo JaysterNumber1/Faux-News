@@ -2,12 +2,12 @@
 .headings>h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: inline-block;
-    font-size: 5vmax;
+    
    
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: inline-block;
-    width:100vw;
-    font-size: 5vmax;
+    width: 93.5vw;
+    font-size: 5vmin;
     
     background-color: navy;
     color: white;
@@ -21,8 +21,8 @@
 .headings>h3{
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: inline-block;
-    width: 100vw;
-    font-size: 2vmax;
+    width: 93.5vw;
+    font-size: 2vmin;
     
     background-color: red;
     color: white;
@@ -36,7 +36,7 @@
 .headings>img{
     
     margin:none;
-    height: 13.25vmax;
+    width: 15.7vmin;
     padding: none;
     vertical-align: top;
     border: .2vmax black solid;
@@ -48,32 +48,121 @@
 
 .headings{
     margin: none;
+    display: flex;
+    flex-direction: column;
+       
+
 }
 
 
 .navi{
-    border: 1px dodgerblue solid;
+    
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: navy;
-    width: 100vmax;
+    width: 98.5vw;
     
     
 }
 .navi>nav>li{
-    list-style: none;
+    display: flex;
+    
+  
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+    background-color: navy;
+    
     
 }
 .navi>nav>li>a{
     
     color: white;
     background-color: navy;
-    margin-left: 7vmax;
-    margin-right: 7vmax;
-    font-size: 2vmax;
+    
+    font-size: 2vmin;
+    text-align: center;
+    width: 20vmin;
     
 }
 
 .navi>nav>li>a:hover{
     background-color: white;
     color: navy;
+}
+
+.article{
+    padding: 2vmin;
+}
+
+article{
+    
+    display: grid;
+    grid-template-columns: max-content auto;
+    grid-template-rows: 20% 20% auto;
+    border: black solid 2px;
+    height: 35vmin;
+    
+    
+    
+}
+.header{
+    grid-column: 2/3;
+    font-size: 3vmin;
+    
+    
+}
+.summary{
+    
+    font-size: 2.5vmin;
+    grid-area: 3/2/3/3;
+   padding-right: 4vmin;
+    
+
+}
+.image{
+    grid-area:1/1/3/2;
+    
+    padding: 2vmin;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+  
+}
+.image>img{
+    height: 30vmin;
+    
+    
+    
+    
+}
+.article-info{
+   
+    grid-area: 2/2/3/2;
+    font-size: 2.5vmin;
+
+}
+
+.foots{
+    display: flex;
+    
+  
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+    background-color: navy;
+    
+}
+
+.foots>a{
+    width: 20vmin;
+    color: white;
+    text-align: center;
+    font-size: 2vmin;
+}
+
+.foots>a:hover{
+    color: navy;
+    background-color: white;
 }
